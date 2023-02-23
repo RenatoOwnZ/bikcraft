@@ -10,7 +10,6 @@
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
 .header-menu {
@@ -38,7 +37,8 @@
 }
 
 /* AÇÕES AO CLICAR OU PASSAR O MOUSE */
-.header-menu a:hover:after {
+.header-menu a:hover:after,
+.header-menu a.ativo::after {
   width: 100%;
 }
 
@@ -68,4 +68,3 @@
     font-size: 14px;
   }
 }
-
